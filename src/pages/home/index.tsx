@@ -16,7 +16,7 @@ export function Home() {
             {categories.map((category) => (
               <CategoryCard
                 key={category.title}
-                image={`/src/assets/site/categories/${category.imageName}`}
+                image={category.image}
                 title={category.title}
                 url={category.categoryUrl}
               />

@@ -1,5 +1,12 @@
+import Camisetas from '../assets/categories/camisetas.png'
+import Bolsas from '../assets/categories/bolsas.png'
+import Calcados from '../assets/categories/calcados.png'
+import Calcas from '../assets/categories/calcas.png'
+import Casacos from '../assets/categories/casacos.png'
+import Oculos from '../assets/categories/oculos.png'
+
 export interface Categories {
-  imageName: string
+  image: string
   title: string
   categoryUrl: string
 }
@@ -8,31 +15,31 @@ export const categories: Categories[] = [
   {
     title: 'Camisetas',
     categoryUrl: '/',
-    imageName: 'camisetas.png',
+    image: Camisetas,
   },
   {
     title: 'Bolsas',
     categoryUrl: '/',
-    imageName: 'bolsas.png',
+    image: Bolsas,
   },
   {
     title: 'Calçados',
     categoryUrl: '/',
-    imageName: 'calcados.png',
+    image: Calcados,
   },
   {
     title: 'Calças',
     categoryUrl: '/',
-    imageName: 'calcas.png',
+    image: Calcas,
   },
   {
     title: 'Casacos',
     categoryUrl: '/',
-    imageName: 'casacos.png',
+    image: Casacos,
   },
   {
     title: 'Óculos',
     categoryUrl: '/',
-    imageName: 'oculos.png',
+    image: Oculos,
   },
 ]
