@@ -40,4 +40,4 @@ Durante o evento, as tarefas a serem realizadas são passadas aos participantes 
 
 ## Demonstração
 
-Você pode acessar o projeto roando em <https://eduhaag.github.io/meteora-modas/>
+Você pode acessar o projeto roando em <https://meteora-modas-71aucukcq-eduhaag.vercel.app/>
