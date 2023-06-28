@@ -1,6 +1,6 @@
 import { ProductCardContainer, ProductInformations } from './styles'
 
-import { Button } from '../../button'
+import { Button } from '../../../../components/button'
 import { Product } from '../../../../data/products'
 
 interface ProductCartProps {

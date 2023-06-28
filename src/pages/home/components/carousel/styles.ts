@@ -1,9 +1,12 @@
 import styled from 'styled-components'
-import { mediaQueries } from '../../../../styles/themes/media-queries'
 
-export const BannerContainer = styled.div`
+interface BannerProps {
+  image: string
+}
+
+export const BannerContainer = styled.div<BannerProps>`
   height: 25.937rem;
-  background: url('/src/assets/site/banners/mobile/1.png') no-repeat;
+  background: ${(props) => `url(${props.image})`} no-repeat;
   background-size: cover;
   display: flex;
   align-items: center;
@@ -23,13 +26,5 @@ export const BannerContainer = styled.div`
     &:hover {
       opacity: 0.8;
     }
-  }
-
-  @media (min-width: ${mediaQueries.TABLET}) {
-    background-image: url('/src/assets/site/banners/tablet/1.png');
-  }
-
-  @media (min-width: ${mediaQueries.DESKTOP}) {
-    background-image: url('/src/assets/site/banners/desktop/1.png');
   }
 `

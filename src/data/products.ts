@@ -1,3 +1,10 @@
+import CamisetaImage from '../assets/products/camiseta.jpg'
+import CalcaImage from '../assets/products/calca.jpg'
+import TenisImage from '../assets/products/tenis.jpg'
+import JaquetaImage from '../assets/products/jaquetas.jpg'
+import OculosImage from '../assets/products/oculos.jpg'
+import BolsaImage from '../assets/products/bolsa.jpg'
+
 export interface Product {
   id: number
   title: string
@@ -13,7 +20,7 @@ export const Products: Product[] = [
     description:
       'Multicores e tamanhos. Tecido de algodão 100%, fresquinho para o verão. Modelagem unissex.',
     price: 'R$ 70,00',
-    image: '/src/assets/products/camiseta.jpg',
+    image: CamisetaImage,
   },
   {
     id: 2,
@@ -21,7 +28,7 @@ export const Products: Product[] = [
     description:
       'Modelo Wide Leg alfaiataria em linho. Uma peça pra vida toda!',
     price: 'R$ 180,00',
-    image: '/src/assets/products/calca.jpg',
+    image: CalcaImage,
   },
   {
     id: 3,
@@ -29,7 +36,7 @@ export const Products: Product[] = [
     description:
       'Snicker casual com solado mais alto e modelagem robusta. Modelo unissex.',
     price: 'R$ 250,00',
-    image: '/src/assets/products/tenis.jpg',
+    image: TenisImage,
   },
   {
     id: 4,
@@ -37,7 +44,7 @@ export const Products: Product[] = [
     description:
       'Modelo unissex oversized com gola de camurça. Atemporal e autêntica!',
     price: 'R$ 150,00',
-    image: '/src/assets/products/jaquetas.jpg',
+    image: JaquetaImage,
   },
   {
     id: 5,
@@ -45,7 +52,7 @@ export const Products: Product[] = [
     description:
       'Armação metálica em grafite com lentes arredondadas. Sem erro!',
     price: 'R$ 120,00',
-    image: '/src/assets/products/oculos.jpg',
+    image: OculosImage,
   },
   {
     id: 5,
@@ -53,6 +60,6 @@ export const Products: Product[] = [
     description:
       'Bolsa camel em couro sintético de alta duração. Ideal para acompanhar você por uma vida!',
     price: 'R$ 120,00',
-    image: '/src/assets/products/bolsa.jpg',
+    image: BolsaImage,
   },
 ]
