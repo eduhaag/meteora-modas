@@ -3,7 +3,6 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://eduhaag.github.io/meteora-modas",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -13,8 +12,8 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^6.13.0",
-    "react-slick": "^0.29.0",
     "styled-components": "^5.3.10"
   },
   "devDependencies": {
