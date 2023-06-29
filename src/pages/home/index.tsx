@@ -2,6 +2,7 @@ import { categories } from '../../data/categories'
 import { Carousel } from './components/carousel'
 import { CategoryCard } from './components/category-card'
 import { FacilitiesSection } from './components/facilities'
+import { NewsLetterSection } from './components/newsletter-section'
 import { ProductsSection } from './components/products-section'
 import { CategorySection, MainContainer } from './styles'
 
@@ -26,6 +27,7 @@ export function Home() {
         <ProductsSection />
       </MainContainer>
       <FacilitiesSection />
+      <NewsLetterSection />
     </>
   )
 }
