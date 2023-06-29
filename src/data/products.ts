@@ -55,7 +55,7 @@ export const Products: Product[] = [
     image: OculosImage,
   },
   {
-    id: 5,
+    id: 6,
     title: 'Bolsa Coringa',
     description:
       'Bolsa camel em couro sintético de alta duração. Ideal para acompanhar você por uma vida!',
