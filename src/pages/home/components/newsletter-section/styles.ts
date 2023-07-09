@@ -27,36 +27,34 @@ export const NewsLetterBox = styled.div`
     line-height: 1.475rem;
   }
 
-  .newsletter-form {
-    display: flex;
-
-    input {
-      border: 1px solid ${(props) => props.theme.black};
-      border-right: 0;
-      padding: 0.5rem 0 0.5rem 1rem;
-      width: 100%;
-    }
-  }
-
   @media (min-width: ${mediaQueries.TABLET}) {
     padding: 2.5rem;
 
     p {
       font-size: 1.25rem;
     }
+  }
+`
 
-    .newsletter-form {
-      input {
-        width: 22.31rem;
-      }
+export const NewsLetterForm = styled.form`
+  display: flex;
+
+  input {
+    border: 1px solid ${(props) => props.theme.black};
+    border-right: 0;
+    padding: 0.5rem 0 0.5rem 1rem;
+    width: 100%;
+  }
+
+  @media (min-width: ${mediaQueries.TABLET}) {
+    input {
+      width: 22.31rem;
     }
   }
 
   @media (min-width: ${mediaQueries.DESKTOP}) {
-    .newsletter-form {
-      input {
-        width: 28.5rem;
-      }
+    input {
+      width: 28.5rem;
     }
   }
 `
