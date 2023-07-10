@@ -124,6 +124,7 @@ export const SearchBarContainer = styled.form`
     border: 1px solid ${(props) => props.theme.black};
     font-weight: 500;
     height: 2.18rem;
+    cursor: pointer;
   }
 
   @media (min-width: ${mediaQueries.TABLET}) {
