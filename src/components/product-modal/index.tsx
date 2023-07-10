@@ -7,13 +7,13 @@ import {
   ProductInfo,
   ProductInfoContainer,
 } from './styles'
-import { Product } from '../../data/products'
 
 import CheckCircle from '../../assets/site/check-circle.svg'
 import CloseIcon from '../../assets/site/close-icon.svg'
 import { CustomRadio } from '../custom-radio'
 import { Button } from '../button/styles'
 import { getDeviceType } from '../../utils/get-device-type'
+import { Product } from '../../contexts/products'
 
 interface ModalProps {
   product: Product

@@ -1,9 +1,9 @@
 import { ProductCardContainer, ProductInformations } from './styles'
 
-import { Product } from '../../../../data/products'
 import { ProductModal } from '../../../../components/product-modal'
 import { Button } from '../../../../components/button/styles'
 import { useState } from 'react'
+import { Product } from '../../../../contexts/products'
 
 interface ProductCartProps {
   product: Product
