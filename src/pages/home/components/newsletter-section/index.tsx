@@ -2,6 +2,7 @@ import { ChangeEvent, FormEvent, useState } from 'react'
 import { Button } from '../../../../components/button/styles'
 import { NewsLetterModal } from '../../../../components/newsletter-modal'
 import { NewsLetterBox, NewsLetterContainer, NewsLetterForm } from './styles'
+import { api } from '../../../../lib/axios'
 
 export function NewsLetterSection() {
   const [isModalOpen, setIsModalOpen] = useState(false)
@@ -9,8 +10,18 @@ export function NewsLetterSection() {
 
   const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault()
-    setEmailField('')
-    setIsModalOpen(true)
+    api
+      .post('/consumers', { email: emailField })
+      .then(() => {
+        setEmailField('')
+        setIsModalOpen(true)
+      })
+      .catch((error) => {
+        console.log(error)
+        alert(
+          'Não foi possível assinar a newsletter agora. Tente novamente mais tarde.',
+        )
+      })
   }
 
   const handleEmailChange = (event: ChangeEvent<HTMLInputElement>) => {

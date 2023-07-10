@@ -35,98 +35,188 @@
     {
       "id": 1,
       "title": "Camiseta Conforto",
-      "description":
-      "Multicores e tamanhos. Tecido de algodão 100%, fresquinho para o verão. Modelagem unissex.",
+      "description": "Multicores e tamanhos. Tecido de algodão 100%, fresquinho para o verão. Modelagem unissex.",
       "price": "R$ 70,00",
       "image": "camiseta.jpg",
       "partner": "Riachuelo",
       "colors": [
-        {"name": "Azul Claro", "hex": "#75D7F0"},
-        {"name": "OffWhite", "hex": "#F3F6F7"},
-        {"name": "Preto", "hex": "#000000"}
+        {
+          "name": "Azul Claro",
+          "hex": "#75D7F0"
+        },
+        {
+          "name": "OffWhite",
+          "hex": "#F3F6F7"
+        },
+        {
+          "name": "Preto",
+          "hex": "#000000"
+        }
       ],
-      "sizes": ["PP", "P", "M", "G", "GG"],
+      "sizes": [
+        "PP",
+        "P",
+        "M",
+        "G",
+        "GG"
+      ],
       "categoryId": 1
     },
     {
       "id": 2,
       "title": "Calça Alfaiataria",
-      "description":
-      "Modelo Wide Leg alfaiataria em linho. Uma peça pra vida toda!",
+      "description": "Modelo Wide Leg alfaiataria em linho. Uma peça pra vida toda!",
       "price": "R$ 180,00",
       "image": "calca.jpg",
       "partner": "C&A",
       "colors": [
-        {"name": "Azul Claro", "hex": "#75D7F0"},
-        {"name": "OffWhite", "hex": "#F3F6F7"},
-        {"name": "Preto", "hex": "#000000"}
+        {
+          "name": "Azul Claro",
+          "hex": "#75D7F0"
+        },
+        {
+          "name": "OffWhite",
+          "hex": "#F3F6F7"
+        },
+        {
+          "name": "Preto",
+          "hex": "#000000"
+        }
       ],
-      "sizes": ["PP", "P", "M", "G", "GG"],
+      "sizes": [
+        "PP",
+        "P",
+        "M",
+        "G",
+        "GG"
+      ],
       "categoryId": 4
     },
     {
       "id": 3,
       "title": "Tênis Chunky",
-      "description":
-      "Snicker casual com solado mais alto e modelagem robusta. Modelo unissex.",
+      "description": "Snicker casual com solado mais alto e modelagem robusta. Modelo unissex.",
       "price": "R$ 250,00",
       "image": "tenis.jpg",
       "partner": "Renner",
       "colors": [
-        {"name": "Azul Claro", "hex": "#75D7F0"},
-        {"name": "OffWhite", "hex": "#F3F6F7"},
-        {"name": "Preto", "hex": "#000000"}
+        {
+          "name": "Azul Claro",
+          "hex": "#75D7F0"
+        },
+        {
+          "name": "OffWhite",
+          "hex": "#F3F6F7"
+        },
+        {
+          "name": "Preto",
+          "hex": "#000000"
+        }
       ],
-      "sizes": ["PP", "P", "M", "G", "GG"],
+      "sizes": [
+        "PP",
+        "P",
+        "M",
+        "G",
+        "GG"
+      ],
       "categoryId": 3
     },
     {
       "id": 4,
       "title": "Jaqueta Jeans",
-      "description":
-      "Modelo unissex oversized com gola de camurça. Atemporal e autêntica!",
+      "description": "Modelo unissex oversized com gola de camurça. Atemporal e autêntica!",
       "price": "R$ 150,00",
       "image": "jaquetas.jpg",
       "partner": "Riachuelo",
       "colors": [
-        {"name": "Azul Claro", "hex": "#75D7F0"},
-        {"name": "OffWhite", "hex": "#F3F6F7"},
-        {"name": "Preto", "hex": "#000000"}
+        {
+          "name": "Azul Claro",
+          "hex": "#75D7F0"
+        },
+        {
+          "name": "OffWhite",
+          "hex": "#F3F6F7"
+        },
+        {
+          "name": "Preto",
+          "hex": "#000000"
+        }
       ],
-      "sizes": ["PP", "P", "M", "G", "GG"],
+      "sizes": [
+        "PP",
+        "P",
+        "M",
+        "G",
+        "GG"
+      ],
       "categoryId": 5
     },
     {
       "id": 5,
       "title": "Óculos Redondo",
-      "description":
-      "Armação metálica em grafite com lentes arredondadas. Sem erro!",
+      "description": "Armação metálica em grafite com lentes arredondadas. Sem erro!",
       "price": "R$ 120,00",
       "image": "oculos.jpg",
       "partner": "Renner",
       "colors": [
-        {"name": "Azul Claro", "hex": "#75D7F0"},
-        {"name": "OffWhite", "hex": "#F3F6F7"},
-        {"name": "Preto", "hex": "#000000"}
+        {
+          "name": "Azul Claro",
+          "hex": "#75D7F0"
+        },
+        {
+          "name": "OffWhite",
+          "hex": "#F3F6F7"
+        },
+        {
+          "name": "Preto",
+          "hex": "#000000"
+        }
       ],
-      "sizes": ["PP", "P", "M", "G", "GG"],
+      "sizes": [
+        "PP",
+        "P",
+        "M",
+        "G",
+        "GG"
+      ],
       "categoryId": 6
     },
     {
       "id": 6,
       "title": "Bolsa Coringa",
-      "description":
-      "Bolsa camel em couro sintético de alta duração. Ideal para acompanhar você por uma vida!",
+      "description": "Bolsa camel em couro sintético de alta duração. Ideal para acompanhar você por uma vida!",
       "price": "R$ 120,00",
       "image": "bolsa.jpg",
       "partner": "C&A",
       "colors": [
-        {"name": "Azul Claro", "hex": "#75D7F0"},
-        {"name": "OffWhite", "hex": "#F3F6F7"},
-        {"name": "Preto", "hex": "#000000"}
+        {
+          "name": "Azul Claro",
+          "hex": "#75D7F0"
+        },
+        {
+          "name": "OffWhite",
+          "hex": "#F3F6F7"
+        },
+        {
+          "name": "Preto",
+          "hex": "#000000"
+        }
       ],
-      "sizes": ["PP", "P", "M", "G", "GG"],
+      "sizes": [
+        "PP",
+        "P",
+        "M",
+        "G",
+        "GG"
+      ],
       "categoryId": 2
+    }
+  ],
+  "consumers": [
+    {
+      "email": "eduardo@gmail.com",
+      "id": 1
     }
   ]
 }
