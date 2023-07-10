@@ -31,11 +31,10 @@ Durante o evento, as tarefas a serem realizadas são passadas aos participantes 
     - Modal com dados dos produtos;
     - Modal para cadastro na newsletter.
 
-- **3ª semana 03/07/2023 a 09/07/2023**
-    - Tarefas a serem divulgadas.
-
-- **4ª semana 10/07/2023 a 16/07/2023**
-    - Tarefas a serem divulgadas.
+- **3ª semana 03/07/2023 a 16/07/2023**
+    - Buscar os produtos listados de uma API.
+    - Tornar os filtros por categoria e busca por produtos funcionais.
+    - Enviar o email cadastrado na newsletter por meio de requisição para API.
 
 
 ## Demonstração
