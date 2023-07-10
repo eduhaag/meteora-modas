@@ -102,7 +102,7 @@ export const NavBar = styled.nav<MenuProps>`
   }
 `
 
-export const SearchBarContainer = styled.div`
+export const SearchBarContainer = styled.form`
   display: flex;
   height: 5.43rem;
   background-color: ${(props) => props.theme.white};

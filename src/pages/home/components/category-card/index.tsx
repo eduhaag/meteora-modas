@@ -1,21 +1,33 @@
 import { NavLink } from 'react-router-dom'
 import { CardContainer, ImageContainer, TitleContainer } from './styles'
+import { Category } from '../..'
+import { useContext } from 'react'
+import { ProductsContext } from '../../../../contexts/products'
 
 interface CategoryCardProps {
-  title: string
-  image: string
-  url: string
+  category: Category
 }
 
-export function CategoryCard(props: CategoryCardProps) {
+export function CategoryCard({ category }: CategoryCardProps) {
+  const { filterByCategory } = useContext(ProductsContext)
+
+  const handleCategoryFilter = () => {
+    filterByCategory(category.id)
+  }
+
   return (
     <CardContainer>
-      <NavLink to={props.url}>
+      <NavLink to="" onClick={handleCategoryFilter}>
         <ImageContainer>
-          <img src={props.image} alt={props.title} />
+          <img
+            src={`${
+              import.meta.env.VITE_REACT_API_URL
+            }/assets/images/categories/${category.image}`}
+            alt={category.title}
+          />
         </ImageContainer>
         <TitleContainer>
-          <h3>{props.title}</h3>
+          <h3>{category.title}</h3>
         </TitleContainer>
       </NavLink>
     </CardContainer>

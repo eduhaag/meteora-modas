@@ -1,4 +1,4 @@
-import { ChangeEvent, useState } from 'react'
+import { ChangeEvent, FormEvent, useState } from 'react'
 import { Button } from '../../../../components/button/styles'
 import { NewsLetterModal } from '../../../../components/newsletter-modal'
 import { NewsLetterBox, NewsLetterContainer, NewsLetterForm } from './styles'
@@ -7,8 +7,8 @@ export function NewsLetterSection() {
   const [isModalOpen, setIsModalOpen] = useState(false)
   const [emailField, setEmailField] = useState('')
 
-  const handleSubmit = (e: any) => {
-    e.preventDefault()
+  const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
+    event.preventDefault()
     setEmailField('')
     setIsModalOpen(true)
   }
@@ -27,6 +27,7 @@ export function NewsLetterSection() {
         <NewsLetterForm onSubmit={handleSubmit}>
           <input
             type="email"
+            required
             placeholder="Digite seu email"
             onChange={handleEmailChange}
             value={emailField}

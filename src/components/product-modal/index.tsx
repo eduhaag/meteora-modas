@@ -64,7 +64,12 @@ export function ProductModal({ isModalOpen, closeModal, product }: ModalProps) {
         </CloseButton>
       </ModalHeader>
       <ContentContainer>
-        <img src={product.image} alt="Imagem do produto" />
+        <img
+          src={`${import.meta.env.VITE_REACT_API_URL}/assets/images/products/${
+            product.image
+          }`}
+          alt="Imagem do produto"
+        />
         <ProductInfoContainer>
           <ProductInfo>
             <h3>{product.title}</h3>

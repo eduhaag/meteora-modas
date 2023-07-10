@@ -14,7 +14,12 @@ export function ProductCard({ product }: ProductCartProps) {
 
   return (
     <ProductCardContainer>
-      <img src={product.image} alt={`Foto do produto ${product.title}`} />
+      <img
+        src={`${import.meta.env.VITE_REACT_API_URL}/assets/images/products/${
+          product.image
+        }`}
+        alt={`Foto do produto ${product.title}`}
+      />
       <ProductInformations>
         <h3>{product.title}</h3>
         <span>{product.description}</span>

@@ -7,10 +7,22 @@ import {
 } from './styles'
 
 import Logo from '../../assets/site/logo_mobile.png'
-import { useState } from 'react'
+import { ChangeEvent, FormEvent, useContext, useState } from 'react'
+import { ProductsContext } from '../../contexts/products'
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
+  const [queryFilter, setQueryFilter] = useState('')
+  const { filterByProductTitle } = useContext(ProductsContext)
+
+  const handleFilterChange = (event: ChangeEvent<HTMLInputElement>) => {
+    setQueryFilter(event.target.value)
+  }
+
+  const handleFilterSubmit = (event: FormEvent<HTMLFormElement>) => {
+    event.preventDefault()
+    filterByProductTitle(queryFilter)
+  }
 
   return (
     <HeaderContainer>
@@ -61,9 +73,15 @@ export function Header() {
           }}
         ></ButtonMenu>
       </div>
-      <SearchBarContainer>
-        <input type="text" placeholder="Digite o produto" />
-        <button>Buscar</button>
+      <SearchBarContainer onSubmit={handleFilterSubmit}>
+        <input
+          type="text"
+          placeholder="Digite o produto"
+          required
+          onChange={handleFilterChange}
+          value={queryFilter}
+        />
+        <button type="submit">Buscar</button>
       </SearchBarContainer>
     </HeaderContainer>
   )

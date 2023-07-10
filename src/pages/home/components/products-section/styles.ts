@@ -8,6 +8,13 @@ export const ProductsContainer = styled.section`
     font-size: 1.75rem;
     font-weight: 500;
   }
+
+  span.error {
+    display: block;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    color: ${(props) => props.theme['gray-100']};
+  }
 `
 
 export const ProductList = styled.div`
