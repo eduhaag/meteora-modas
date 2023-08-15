@@ -27,7 +27,7 @@
 ## 💻 Sobre o projeto
 A Meteora Modas é uma empresa fictícia do ramo do comércio eletrônico de roupas atemporais, casuais e sem gênero. O projeto consiste em uma página de e-commerce desenvolvida com o intuito de estudo do React.Js.
 
-Projeto desenvolvido durante a Challenge Front-end oferecida pela [Alura](https://alura.com.br). A Challenge Front-end é um evento que coloca seus participantes no papel de um Dev durante três semanadas, recebendo as tasks semanalmente por meio de um board no [Trello](https://trello.com), onde o participante tem autonomia e flexibilidade para criar utilizando suas ferramentas e tecnologias preferidas.
+Projeto desenvolvido durante a Challenge Front-end oferecida pela [Alura](https://alura.com.br). A Challenge Front-end é um evento que coloca seus participantes no papel de um Dev durante três semanas, recebendo as tasks semanalmente por meio de um board no [Trello](https://trello.com), onde o participante tem autonomia e flexibilidade para criar utilizando suas ferramentas e tecnologias preferidas.
 
 ## 🧰 Funcionalidades
 - [x] Possuir um cabeçalho com uma barra de navegação para demais páginas do site;
