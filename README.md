@@ -81,7 +81,7 @@ $ npm run dev
 - **[react-responsive-carousel](https://github.com/leandrowd/react-responsive-carousel)** - Componente de carrossel poderoso, leve e totalmente personalizável para aplicativos React;
 - **[Stylef Components](https://styled-components.com/)** - Possibilita escrever códigos CSS dentro do JavaScript;
 - **[Json-server](https://github.com/typicode/json-server)** - Cria um servidor back-end a partir de um arquivo JSON.
-> Veja o arquivo [package.json](https://github.com/eduhaag/Memoteca/package.json)
+> Veja o arquivo [package.json](package.json)
 
 
 **Utilitários**
