@@ -72,7 +72,6 @@ $ npm run dev
 ```
 
 ## 🛠️ Tecnologias
-**Front-end**
 - **[React](https://react.dev/)**;
 - **[Typescript](https://www.typescriptlang.org/)**;
 - **[Vite](https://vitejs.dev/)** - Para agilizar o processo de criação e configuração do projeto;
