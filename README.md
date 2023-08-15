@@ -97,4 +97,4 @@ $ npm run dev
 4. Envie as suas alterações: `git push origin my-feature`
 
 ## 📝 Licença
-Este projeto esta sobe a licença MIT.
+Este projeto está sobe a licença MIT.
